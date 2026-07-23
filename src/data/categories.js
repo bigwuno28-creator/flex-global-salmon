@@ -23,20 +23,15 @@ const categories = [
     value: "portions",
   },
 
+  
   {
     id: 5,
-    name: "Smoked",
-    value: "smoked",
-  },
-
-  {
-    id: 6,
     name: "Roe",
     value: "roe",
   },
 
   {
-    id: 7,
+    id: 6,
     name: "By-Products",
     value: "byproducts",
   },

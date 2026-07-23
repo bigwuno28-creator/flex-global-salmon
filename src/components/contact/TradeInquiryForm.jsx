@@ -162,7 +162,6 @@ return (
       <option value="HON Salmon">HON Salmon</option>
       <option value="Salmon Fillets">Salmon Fillets</option>
       <option value="Salmon Portions">Salmon Portions</option>
-      <option value="Smoked Salmon">Smoked Salmon</option>
       <option value="Salmon Roe">Salmon Roe</option>
       <option value="Frozen Salmon Heads">Frozen Salmon Heads</option>
       <option value="Salmon Belly">Salmon Belly</option>

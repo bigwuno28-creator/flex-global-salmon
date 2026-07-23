@@ -8,7 +8,7 @@ const products = [
 
     type: "BQF / Fresh",
 
-    name: "Head-On Gutted Salmon (HON)",
+    slug: "Head-On Gutted Salmon (HON)",
 
     image: "/images/products/hon/hon-salmon.jpg",
 
@@ -66,7 +66,7 @@ certifications: [
 
     type: "IQF",
 
-    name:
+    slug:
       "Premium Salmon Fillets",
 
     image:
@@ -124,7 +124,7 @@ certifications: [
 
   type: "IQF",
 
-  name: "Salmon Portions",
+  slug: "Salmon Portions",
 
   image: "/images/products/portions/salmon-portions.jpg",
 
@@ -172,65 +172,13 @@ certifications: [
 {
   id: 4,
 
-  category: "smoked",
-
-  badge: "New",
-
-  type: "Fresh / Frozen",
-
-  name: "Premium Smoked Salmon",
-
-  image: "/images/products/smoked/smoked-salmon.jpg",
-
-  description:
-    "Traditionally smoked premium salmon prepared for luxury retail, delicatessens, hospitality businesses, and gourmet food distributors.",
-
-  origin: [
-    "Norway",
-    "Scotland",
-  ],
-
-  sizes: [
-    "100g",
-    "200g",
-    "500g",
-    "1kg",
-  ],
-
-  packaging: "20 kg Export Carton",
-
-shelfLife: "24 Months",
-
-availability: "Year-round",
-
-tradeTerms: "CIF / FOB",
-
-certifications: [
-  "ASC",
-  "HACCP",
-  "BRCGS",
-  "SGS",
-],
-
-  freezing: "Fresh Chilled or Frozen",
-
-  storage: "-18°C",
-
-  moq: "1 FCL (20–22 Metric Tons)",
-
-  price: "Contact for Quote",
-},
-
-{
-  id: 5,
-
   category: "roe",
 
   badge: "Premium",
 
   type: "IQF",
 
-  name: "Premium Salmon Roe",
+  slug: "Premium Salmon Roe",
 
   image: "/images/products/roe/salmon-roe.jpg",
 
@@ -273,7 +221,7 @@ certifications: [
 },
 
 {
-  id: 6,
+  id: 5,
 
   category: "byproducts",
 
@@ -281,7 +229,7 @@ certifications: [
 
   type: "BQF",
 
-  name: "Frozen Salmon Heads",
+  slug: "Frozen Salmon Heads",
 
   image: "/images/products/heads/frozen-heads.jpg",
 
@@ -322,7 +270,7 @@ certifications: [
 },
 
 {
-  id: 7,
+  id: 6,
 
   category: "byproducts",
 
@@ -330,7 +278,7 @@ certifications: [
 
   type: "IQF",
 
-  name: "Salmon Belly",
+  slug: "Salmon Belly",
 
   image: "/images/products/belly/salmon-belly.jpg",
 
@@ -373,7 +321,7 @@ certifications: [
 },
 
 {
-  id: 8,
+  id: 7,
 
   category: "whole",
 
@@ -381,7 +329,7 @@ certifications: [
 
   type: "IQF",
 
-  name: "Salmon Steaks",
+  slug: "Salmon Steaks",
 
   image: "/images/products/steaks/salmon-steaks.jpg",
 
