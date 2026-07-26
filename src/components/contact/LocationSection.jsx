@@ -63,12 +63,25 @@ function LocationSection() {
               <div>
                 <h4 className="font-semibold text-blue-700">
                   📞 Direct Hotline
+                 </h4>
+
+                 <p className="mt-2 text-gray-600">
+                   +31 649063119
+                 </p>
+              </div>
+
+              <div>
+                <h4 className="font-semibold text-blue-700">
+                  ✉️ Email
                 </h4>
 
-                <p className="mt-2 text-gray-600">
-                  +31 649063119
-                </p>
-              </div>
+                <a
+                  href="mailto:info@flexglobalsalmon.com"
+                  className="mt-2 block text-gray-600 hover:text-blue-700 hover:underline"
+                >
+                  info@flexglobalsalmon.com
+                </a>
+             </div>
 
               <div>
                 <h4 className="font-semibold text-blue-700">
