@@ -159,10 +159,7 @@ function ProductDetail() {
   </div>
 
 </section>
-    </main>
-  );
-}
-
+ 
 <section className="py-20">
 
   <div className="mx-auto max-w-7xl px-6">
@@ -259,6 +256,10 @@ function ProductDetail() {
   </div>
 
 </section>
+
+    </main>
+  );
+}
 
 function SpecRow({ label, value }) {
   return (

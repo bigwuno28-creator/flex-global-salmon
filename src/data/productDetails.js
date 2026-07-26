@@ -1,28 +1,35 @@
 const productDetails = [
-  specifications: {
+  {
     slug: "salmon-portions",
     name: "Salmon Portions",
-    species: "Salmo salar",
+    scientificName: "Salmo salar",
     image: "/images/product/salmon-portions.jpg",
     description:
       "Premium Atlantic salmon portions carefully trimmed and individually frozen to preserve freshness, texture, and natural flavor. Ideal for foodservice, restaurants, and retail distribution.",
     origin: "Norway",
-    processing: "Frozen",
-    grade: "Premium Export Grade",
-    storage: "-18°C",
-    shelfLife: "24 Months",
-    packaging: "Vacuum Packed",
+
+    specifications: {
+      species: "Salmo salar",
+      processing: "Frozen",
+      grade: "Premium Export Grade",
+      packaging: "Vacuum Packed",
+      storage: "-18°C",
+      shelfLife: "24 Months",
+    },
+
     sizes: [
       "200–300 g",
       "300–500 g",
       "500–700 g",
-      "Custom Sizes"
+      "Custom Sizes",
     ],
+
     certifications: [
       "HACCP",
       "BRCGS",
-      "ISO 22000"
+      "ISO 22000",
     ],
+
     markets: [
       "Japan",
       "Singapore",
@@ -33,32 +40,39 @@ const productDetails = [
       "Netherlands",
       "United Kingdom",
       "Canada",
-      "USA"
-    ]
+      "USA",
+    ],
   },
 
-  Specifications: {
+   {
     slug: "salmon-steaks",
-    name: "Salmon Steaks",
-    species: "Salmo salar",
+    name: "Salmon Steaks", 
+    scientificName: "Salmo salar",   
     image: "/images/product/salmon-steaks.jpg",
     description:
       "Premium frozen salmon steaks produced from carefully selected Atlantic salmon for international wholesale buyers.",
     origin: "Norway",
-    processing: "Frozen",
-    grade: "Premium Export Grade",
-    storage: "-18°C",
-    shelfLife: "24 Months",
-    packaging: "Vacuum Packed",
+    
+    specifications: {
+      species: "Salmo salar",
+      processing: "Frozen",
+      grade: "Premium Export Grade",
+      packaging: "Vacuum Packed",
+      storage: "-18°C",
+      shelfLife: "24 Months",
+    },
+
     sizes: [
       "250 g",
       "300 g",
       "500 g"
     ],
+
     certifications: [
       "HACCP",
       "BRCGS"
     ],
+
     markets: [
       "Europe",
       "Asia",
@@ -66,25 +80,32 @@ const productDetails = [
     ]
   },
 
-  Specifications: {
+   {
     slug: "salmon-belly",
     name: "Salmon Belly",
-    species: "Salmo salar",
+    scientificName: "Salmo salar",    
     image: "/images/product/salmon-belly.jpg",
     description:
       "Rich, flavorful salmon belly with high omega-3 content, ideal for grilling, smoking, and premium culinary applications.",
     origin: "Norway",
-    processing: "Frozen",
-    grade: "Premium Export Grade",
-    storage: "-18°C",
-    shelfLife: "24 Months",
-    packaging: "Vacuum Packed",
+
+    specifications: {
+      species: "Salmo salar",
+      processing: "Frozen",
+      grade: "Premium Export Grade",
+      packaging: "Vacuum Packed",
+      storage: "-18°C",
+      shelfLife: "24 Months",
+    },
+    
     sizes: [
       "Bulk"
     ],
+
     certifications: [
       "HACCP"
     ],
+
     markets: [
       "Japan",
       "Korea",
@@ -92,27 +113,34 @@ const productDetails = [
     ]
   },
 
-  Specifications: {
+   {
     slug: "salmon-roe",
     name: "Salmon Roe",
-    species: "Salmo salar",
+    scientificName: "Salmo salar",
     image: "/images/product/salmon-roe.jpg",
     description:
       "Premium-grade salmon roe carefully processed to maintain freshness, color, and exceptional taste.",
     origin: "Norway",
-    processing: "Frozen",
-    grade: "Premium Export Grade",
-    storage: "-18°C",
-    shelfLife: "24 Months",
-    packaging: "Foodservice Packs",
+
+    specifications: {
+      species: "Salmo salar",
+      processing: "Frozen",
+      grade: "Premium Export Grade",
+      packaging: "Foodservice Packs",
+      storage: "-18°C",
+      shelfLife: "24 Months",
+    },
+    
     sizes: [
       "500 g",
       "1 kg"
     ],
+
     certifications: [
       "HACCP",
       "ISO 22000"
     ],
+
     markets: [
       "Japan",
       "USA",
@@ -120,25 +148,32 @@ const productDetails = [
     ]
   },
 
-  Specifications: {
+   {
     slug: "frozen-salmon-heads",
     name: "Frozen Salmon Heads",
-    species: "Salmo salar",
+    scientificName: "Salmo salar",
     image: "/images/product/frozen-salmon-heads.jpg",
     description:
       "High-quality frozen salmon heads supplied for food manufacturing and international wholesale distribution.",
     origin: "Norway",
-    processing: "Frozen",
-    grade: "Premium Export Grade",
-    storage: "-18°C",
-    shelfLife: "24 Months",
-    packaging: "Bulk Cartons",
+
+    specifications: {
+      species: "Salmo salar",
+      processing: "Frozen",
+      grade: "Premium Export Grade",
+      packaging: "Bulk Cartons",
+      storage: "-18°C",
+      shelfLife: "24 Months",
+    },
+    
     sizes: [
       "Bulk"
     ],
+
     certifications: [
       "HACCP"
     ],
+
     markets: [
       "Africa",
       "Asia"
