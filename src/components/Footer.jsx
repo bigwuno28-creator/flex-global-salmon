@@ -27,13 +27,17 @@ function Footer() {
           <p>
             +31 649063119
           </p>
+          
+          <p>
+            info@flexglobalsalmon.com
+          </p>
 
         </div>
 
         <hr className="my-8 border-gray-700"/>
 
         <p className="text-sm text-gray-400">
-          © 2026 Flex Global Salmon.
+          © 2016 Flex Global Salmon.
           All Rights Reserved.
         </p>
 

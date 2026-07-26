@@ -88,13 +88,12 @@ function ProductCard({ product, onViewDetails }) {
 </div>
         </div>
 
-        <button
-          onClick={onViewDetails}
-          className="mb-4 w-full rounded-lg border border-blue-700 px-6 py-3 font-semibold text-blue-700 transition hover:bg-blue-700 hover:text-white"
+        <Link
+          to={`/products/${product.slug}`}
+          className="rounded-lg bg-blue-700 px-5 py-3 text-white transition hover:bg-blue-800"
         >
           View Details
-        </button>
-
+        </Link>
         <Link
           to="/contact"
           className="mt-8 inline-block rounded-lg bg-blue-700 px-6 py-3 font-semibold text-white transition hover:bg-blue-800"

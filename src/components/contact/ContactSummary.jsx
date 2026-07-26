@@ -29,14 +29,13 @@ function ContactSummary() {
           {contactInfo.map((item) => {
   let href = "#";
 
-  if (item.title === "Direct Sourcing Hotline") {
-    href = "tel:+31649063119";
-  }
-
-  if (item.title === "WhatsApp Business") {
-    href = "https://wa.me/31649063119";
-  }
-
+if (item.title === "Direct Sourcing Hotline") {
+  href = "tel:+31649063119";
+} else if (item.title === "WhatsApp Business") {
+  href = "https://wa.me/31649063119";
+} else if (item.title === "Email") {
+  href = "mailto:info@flexglobalsalmon.com";
+}
   return (
     <a
       key={item.id}
@@ -63,8 +62,9 @@ function ContactSummary() {
       </p>
 
       {(item.title === "Direct Sourcing Hotline" ||
-        item.title === "WhatsApp Business") && (
-        <p className="mt-4 font-semibold text-blue-700">
+        item.title === "WhatsApp Business" ||
+        item.title === "Email") && (
+      <p className="mt-4 font-semibold text-blue-700">
           Click to Contact →
         </p>
       )}
